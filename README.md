@@ -1,4 +1,4 @@
-# Pytube Downloader - Youtube Downloader Application
+# 📹 Pytube Downloader - Youtube Downloader Application
 
 **Version**: 1.2.1
 
@@ -11,7 +11,7 @@
 
 Python-based application built with moviepy, Tkinter and yt-dlp, where you can download videos and audio files from the YouTube website.
 
-## Features
+## 🚀 Features
 
 * Download videos and choose its quality
     * 1080p - (default)
@@ -32,9 +32,9 @@ Python-based application built with moviepy, Tkinter and yt-dlp, where you can d
 * **moviepy** and **yt-dlp** - (installed via `requirements.txt`)
 * Linux/Windows/macOS
 
-## Installation
+## ⚙️ Installation
 
-### Linux (Debian/Ubuntu)
+### 🐧 Linux (Debian/Ubuntu)
 
 ```
 # Install Python and Git
@@ -55,7 +55,7 @@ pip install -r requirements.txt
 python main.py
 ```
 
-### Linux (Arch)
+### 🐧 Linux (Arch)
 
 ```
 # Install Python and Git
@@ -76,7 +76,7 @@ pip install -r requirements.txt
 python main.py
 ```
 
-### Windows 10/11
+### 🪟 Windows 10/11
 
 ```
 # Install Python from https://python.org (check "Add to PATH" during installation)
@@ -97,7 +97,7 @@ pip install -r requirements.txt
 python main.py
 ```
 
-### macOS
+### 🍎 macOS
 
 ```
 # Install Homebrew (if not installed)
