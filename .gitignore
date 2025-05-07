@@ -1,0 +1,16 @@
+# Virtual environment
+venv/
+ENV/
+env/
+.venv/
+pytube/
+
+# Cache
+__pycache__/
+
+# Folders where the downloaded files get store
+videos/
+audios/
+video/
+audio/
+downloads/
