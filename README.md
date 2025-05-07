@@ -42,6 +42,7 @@ sudo apt update && sudo apt install python3 python3-pip git
 cd Pytube_Downloader
 
 # Clone the repository
+git clone https://github.com/Joa98Dev/pytube-downloader.git
 
 # Set up a virtual envrionments
 Python3 -m venv
@@ -61,7 +62,7 @@ python main.py
 sudo pacman -S python python-pip git
 
 # Clone the repository
-git clone
+git clone https://github.com/Joa98Dev/pytube-downloader.git
 cd Pytube_Downloader
 
 # Set up a virtual environment
@@ -82,7 +83,7 @@ python main.py
 # Open CMD/PowerShell as Administrator
 
 # Clone the repo
-git clone
+git clone https://github.com/Joa98Dev/pytube-downloader.git
 cd Pytube_Downloader
 
 # Set up a virtual environment
@@ -106,7 +107,7 @@ python main.py
 brew install python git
 
 # Clone the repo
-git clone
+git clone https://github.com/Joa98Dev/pytube-downloader.git
 cd Pytube_Downloader
 
 # Set up a virtual environment
