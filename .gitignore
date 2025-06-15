@@ -14,3 +14,9 @@ audios/
 video/
 audio/
 downloads/
+
+# Executable storage folders
+build/
+dist/
+
+main.spec
