@@ -7,7 +7,7 @@
 <img src="screenshots/Cover.png" align="center"/>
 
 
-Python-based application built with moviepy, Tkinter and yt-dlp, where you can download videos and audio files from the YouTube website.
+Python-based application built with moviepy, Tkinter, CustomTkinter and yt-dlp, where you can download videos and audio files from the YouTube, Facebook, Instagram and more websites.
 
 ## 🚀 Features
 
