@@ -3,7 +3,7 @@
 PyTube Downloader - Youtube Video Downloader Program
 -----------------------------------------------------
 
-Version: 2.0.1
+Version: 2.3.1
 
 Author: Joa98
 

@@ -92,12 +92,14 @@ def _video_tab(notebook):
 
         # Configure yt-dlp options based on selected video quality
         ydl_opts = {
+            'ffmpeg_location' : os.path.join(os.environ["APPDIR"], "usr", "bin"), 
             'format': f"bestvideo[height<={selected_quality}]+bestaudio/best",
-            'outtmpl': f"videos/video_%(title)s_{selected_quality}p.%(ext)s",
+            'outtmpl': f"videos_downloaded/video_%(clean_title)s_{selected_quality}p.%(ext)s",
             'merge_output_format' : 'mp4',
             'postprocessor' : [{
-                'key' : 'FFmpegVideoConvertor',
-                'preferedformat' : 'mp4',
+                #'key' : 'FFmpegVideoConvertor',
+                'key' : 'FFmpegMerger',
+                #'preferedformat' : 'mp4',
                 }],
         }
 
