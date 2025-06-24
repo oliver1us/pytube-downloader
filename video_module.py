@@ -15,6 +15,7 @@ from tkinter import messagebox
 from yt_dlp import YoutubeDL
 import threading
 import time
+from datetime import datetime
 
 
 # Ensures the icon is found by Pyinstaller
@@ -91,12 +92,13 @@ def _video_tab(notebook):
 
         # Creates the videos folder
         os.makedirs("videos_downloaded", exist_ok=True)
+        timestamp = datetime.now().strftime("%Y%m%d%H%M%S")
 
         # Configure yt-dlp options based on selected video quality
         ydl_opts = {
             "ffmpeg_location": os.path.join(os.environ.get("APPDIR", "/usr"), "bin"),
             "format": f"bestvideo[height<={selected_quality}]+bestaudio/best",
-            "outtmpl": f"videos_downloaded/video_%(clean_title)s_{selected_quality}p.%(ext)s",
+            "outtmpl": f"videos_downloaded/{timestamp}_video_%(clean_title)s_{selected_quality}p.%(ext)s",
             "merge_output_format": "mp4",
             "postprocessor": [
                 {
