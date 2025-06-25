@@ -1,0 +1,25 @@
+[project]
+name = "pytube-downloader"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "altgraph==0.17.4",
+    "customtkinter==5.2.2",
+    "darkdetect==0.8.0",
+    "decorator==4.4.2",
+    "imageio==2.37.0",
+    "imageio-ffmpeg==0.4.9",
+    "moviepy==1.0.3",
+    "numpy==2.2.5",
+    "packaging==25.0",
+    "pillow==10.4.0",
+    "proglog==0.1.10",
+    "pyinstaller==6.4.0",
+    "pyinstaller-hooks-contrib==2025.5",
+    "python-dotenv==1.0.1",
+    "setuptools==68.0.0",
+    "tqdm==4.67.1",
+    "yt-dlp==2025.4.30",
+]
